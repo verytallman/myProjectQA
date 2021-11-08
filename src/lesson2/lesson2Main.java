@@ -1,4 +1,4 @@
-package org.project;
+package lesson2;
 
 import java.util.Scanner;
 
