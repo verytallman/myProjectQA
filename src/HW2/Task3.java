@@ -53,13 +53,13 @@ public class Task3 {
         int number2 = scanner.nextInt();
         if (number2 == 1){
             System.out.println("ONE");
-        } else if (number2 == 2) {
+        }else if (number2 == 2) {
             System.out.println("TWO");
-        } else if (number2 == 3) {
+        }else if (number2 == 3) {
             System.out.println("THREE");
-        } else if (number2 == 4) {
+        }else if (number2 == 4) {
             System.out.println("FOUR");
-        } else if (number2 == 5) {
+        }else if (number2 == 5) {
             System.out.println("FIVE");
         }else if (number2 == 6) {
             System.out.println("SIX");
@@ -71,7 +71,7 @@ public class Task3 {
             System.out.println("NINE");
         }else if (number2 == 10) {
             System.out.println("TEN");
-        } else {
+        }else {
             System.out.println("OTHER");
         }
     }
