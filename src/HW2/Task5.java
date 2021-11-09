@@ -4,8 +4,19 @@ package HW2;
 // Программа должна также учитывать варианты, когда или а = 0 или b = 0
 
 
+import java.util.Scanner;
+
 public class Task5 {
     public static void main(String[] args) {
+        System.out.println("This is equation solver!");
+        System.out.println("Equation looks like a * x + b = 0");
+        Scanner scanner1 = new Scanner(System.in);
+        System.out.print("Type here value for a:");
+        int a = scanner1.nextInt();
+        Scanner scanner2 = new Scanner(System.in);
+        System.out.print("Type here value for b:");
+        int b = scanner2.nextInt();
+
 
     }
 }
