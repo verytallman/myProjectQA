@@ -9,14 +9,22 @@ import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
         System.out.println("This is equation solver!");
-        System.out.println("Equation looks like a * x + b = 0");
+        System.out.println("Equation looks like a a*x+b=c");
         Scanner scanner1 = new Scanner(System.in);
         System.out.print("Type here value for a:");
         int a = scanner1.nextInt();
         Scanner scanner2 = new Scanner(System.in);
         System.out.print("Type here value for b:");
         int b = scanner2.nextInt();
-
+        //int c = 20; //ответ после знака =
+        if (a > 0 && b >0){
+            int x = (b / a);
+            int c = (a * x + b);
+            System.out.println("Икс равен: "+x);
+            System.out.println("Финальный вид уравнения:"+a+"*"+x+"+"+b+"="+c);
+        }else if (a == 0 || b == 0){
+            System.out.println("Одна из цифр равна нулю.");
+        }
 
     }
 }
