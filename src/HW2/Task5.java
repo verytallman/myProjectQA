@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class Task5 {
     public static void main(String[] args) {
         System.out.println("This is equation solver!");
-        System.out.println("Equation looks like a a*x+b=c");
+        System.out.println("Equation looks like a*x+b=c");
         Scanner scanner1 = new Scanner(System.in);
         System.out.print("Type here value for a:");
         int a = scanner1.nextInt();
