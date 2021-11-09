@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        System.out.println("This is PrintNumberInWord program!");
+        System.out.println("This is PrintNumberInWord program using switch-case method!");
         Scanner scanner = new Scanner(System.in);
         System.out.print("ENTER YOUR INTEGER:");
         int number = scanner.nextInt();
@@ -41,13 +41,10 @@ public class Task3 {
             case 9:
                 System.out.println("NINE");
                 break;
-            case 10:
-                System.out.println("TEN");
-                break;
             default:
                 System.out.println("OTHER");
         }
-        System.out.println("This is PrintNumberInWord program with if...else if method!");
+        System.out.println("This is PrintNumberInWord program using if...else if method!");
         Scanner scanner2 = new Scanner(System.in);
         System.out.print("ENTER YOUR INTEGER:");
         int number2 = scanner.nextInt();
@@ -69,8 +66,6 @@ public class Task3 {
             System.out.println("EIGHT");
         }else if (number2 == 9) {
             System.out.println("NINE");
-        }else if (number2 == 10) {
-            System.out.println("TEN");
         }else {
             System.out.println("OTHER");
         }
