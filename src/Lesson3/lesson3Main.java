@@ -2,6 +2,18 @@ package Lesson3;
 
 public class lesson3Main {
 
+    public static void main(String[] args) {
+
+
+
+    }
+
+
+
+
+
+}
+
 //        public static void main(String args[]){    //Улучшенный цикл for
 //            int [] numbers = {10, 20, 30, 40, 50};
 //
@@ -27,5 +39,3 @@ public class lesson3Main {
 //        System.out.print("\n");
 //    }
 //}
-
-}
