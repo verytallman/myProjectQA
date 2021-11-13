@@ -24,14 +24,14 @@ public class lesson3Main {
 //            System.out.println(num);
 //        }
 
-//        String[] s = new String[]{"one", "two", "three", "four"};
-//        int amountChars = s.length;
-//        String[] reversed = new String[amountChars];
-//        while (amountChars > 0){
-//            System.out.println(s[amountChars -1]);
-//            reversed[4- amountChars] = s[amountChars -1];
-//            amountChars--;
-//        }
+        String[] s = new String[]{"one", "two", "three", "four"};
+        int amountChars = s.length;
+        String[] reversed = new String[amountChars];
+        while (amountChars > 0){
+            System.out.println(s[amountChars -1]);
+            reversed[4- amountChars] = s[amountChars -1];
+            amountChars--;
+        }
 //    System.out.println("");
         int [] [] someArray = {{0, 1, 2, 3}, {4, 5, 6, 7}, {8, 9, 10, 11}};
         for (int  i = 0; i < 3; i++){
