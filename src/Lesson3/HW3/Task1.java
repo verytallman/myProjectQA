@@ -18,8 +18,8 @@ public class Task1 {
         int[] arr = {1, 2, 3, 4, 2, 7, 8, 8, 3};
         int amountArr = arr.length;
         System.out.println("Duplicate elements in given array are: ");
-       for (int i = 0; i < arr.length; i++){
-           for (int j = i + 1; j < arr.length; j++){
+       for (int i = 0; i < amountArr; i++){
+           for (int j = i + 1; j < amountArr; j++){
             if (arr[i]==arr[j]){
                 System.out.println(arr[j]);
             }
