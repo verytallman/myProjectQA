@@ -2,23 +2,17 @@ package Lesson3.HW3;
 
 //Write a program that outputs a reversible string (use an array of characters - char string [])
 
+
+import java.util.Scanner;
+
 public class Task5 {
-    public static void main(String[] args) {
-        char[] stringMyName = new char[7];
-        stringMyName[0] = 'A';
-        stringMyName[1] = 'l';
-        stringMyName[2] = 'e';
-        stringMyName[3] = 'k';
-        stringMyName[4] = 's';
-        stringMyName[5] = 'e';
-        stringMyName[6] = 'y';
-        int amountChars = stringMyName.length;
-        String[] reversed = new String[amountChars];
-        System.out.print("My name using reversed string: ");
-        while (amountChars > 0) {
-            System.out.print(stringMyName[amountChars - 1]);
-            reversed[7 - amountChars] = String.valueOf(stringMyName[amountChars - 1]);
-            amountChars--;
+        public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String name = scanner.nextLine();
+        char[] arr = name.toCharArray();
+
+        for(int i = 0;  i < arr.length; i++){
+            System.out.print(arr[arr.length - i - 1]);
         }
     }
 }
