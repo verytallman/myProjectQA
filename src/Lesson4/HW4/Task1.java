@@ -9,11 +9,11 @@ public class Task1 {
         Scanner scan = new Scanner(System.in);
         System.out.print("Enter your integer: ");
         int number = scan.nextInt();
-        boolean result = trueOrFalse(number);
+        boolean result = evenOrOdd(number);
         System.out.println(result);
     }
 
-    public static boolean trueOrFalse(int a) {
+    public static boolean evenOrOdd(int a) {
         if (a % 2 == 0){
             return true;
         }else  {

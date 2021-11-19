@@ -19,9 +19,9 @@ public class Task3 {
         System.out.println("The number of chars: "+arr.length);
         int numberOfChars = charsEntered.length();
         for (i = 0; i < numberOfChars; i++){
-            char character = charsEntered.charAt(i);
-            int ascii = character;
-            System.out.println("The ASCII code for "+"'"+character+"'" +" is"+ " "+ascii+".");
+            char characters = charsEntered.charAt(i);
+            int ascii = characters;
+            System.out.println("The ASCII code for "+"'"+characters+"'" +" is"+ " "+ascii+".");
         }
         return "";
     }
