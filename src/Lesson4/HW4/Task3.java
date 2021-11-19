@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Task3 {
     public static void main(String[] args) {
-        System.out.println("Please, enter your char's: ");
+        System.out.print("Please, enter your chars:");
         System.out.println(codeOfChar());
 
     }
@@ -16,6 +16,7 @@ public class Task3 {
         Scanner scanner = new Scanner(System.in);
         String charsEntered = scanner.nextLine();
         char [] arr = charsEntered.toCharArray();
+        System.out.println("The number of chars: "+arr.length);
         int numberOfChars = charsEntered.length();
         for (i = 0; i < numberOfChars; i++){
             char character = charsEntered.charAt(i);
