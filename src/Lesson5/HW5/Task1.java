@@ -6,8 +6,6 @@ package Lesson5.HW5;
 
 
 
-import javax.sound.midi.Soundbank;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Task1 {
