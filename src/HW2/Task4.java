@@ -7,6 +7,11 @@ import java.util.Scanner;
 
 public class Task4 {
     public static void main(String[] args) {
+        System.out.println(intComparison());
+
+    }
+
+    public static String intComparison() {
         System.out.println("This is Number Comparison program!");
         Scanner scanner1 = new Scanner(System.in);
         System.out.print("ENTER YOUR FIRST INTEGER:");
@@ -21,5 +26,6 @@ public class Task4 {
         } else {
             System.out.println("The numbers are even.");
         }
+        return "";
     }
 }

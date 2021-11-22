@@ -8,6 +8,10 @@ import java.util.Scanner;
 
 public class Task6 {
     public static void main(String[] args) {
+        System.out.println(magnitudeChecker());
+    }
+
+    public static String magnitudeChecker() {
         System.out.println("This is Magnitude comparison program!");
         Scanner scanner1 = new Scanner(System.in);
         System.out.print("ENTER YOUR FIRST INTEGER:");
@@ -15,13 +19,13 @@ public class Task6 {
         Scanner scanner2 = new Scanner(System.in);
         System.out.print("ENTER YOUR SECOND INTEGER:");
         int secondNumber = scanner2.nextInt();
-        if (Math.abs(firstNumber) > Math.abs(secondNumber)){
-            System.out.println("Число "+firstNumber+" имеет большую величину чем "+secondNumber+".");
-        }else if (Math.abs(firstNumber) < Math.abs(secondNumber)){
-            System.out.println("Число "+secondNumber+" имеет большую величину чем "+firstNumber+".");
-        }else{
-            System.out.println("Число "+firstNumber+ " равно "+secondNumber+".");
+        if (Math.abs(firstNumber) > Math.abs(secondNumber)) {
+            System.out.println("Число " + firstNumber + " имеет большую величину чем " + secondNumber + ".");
+        } else if (Math.abs(firstNumber) < Math.abs(secondNumber)) {
+            System.out.println("Число " + secondNumber + " имеет большую величину чем " + firstNumber + ".");
+        } else {
+            System.out.println("Число " + firstNumber + " равно " + secondNumber + ".");
             System.out.println("Числа равны.");
-        }
+        } return "" ;
     }
 }

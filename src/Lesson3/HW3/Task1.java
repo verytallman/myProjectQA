@@ -14,16 +14,19 @@ package Lesson3.HW3;
 
 public class Task1 {
     public static void main(String[] args) {
+        duplicateInArrayFinder();
+    }
 
+    public static void duplicateInArrayFinder() {
         int[] arr = {1, 2, 3, 4, 2, 7, 8, 8, 3};
         int amountArr = arr.length;
         System.out.println("Duplicate elements in given array are: ");
-       for (int i = 0; i < amountArr; i++){
-           for (int j = i + 1; j < amountArr; j++){
-            if (arr[i]==arr[j]){
-                System.out.println(arr[j]);
+        for (int i = 0; i < amountArr; i++) {
+            for (int j = i + 1; j < amountArr; j++) {
+                if (arr[i] == arr[j]) {
+                    System.out.println(arr[j]);
+                }
             }
-           }
         }
     }
 }
