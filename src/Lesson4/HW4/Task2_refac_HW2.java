@@ -1,4 +1,4 @@
-package HW2;
+package Lesson4.HW4;
 
 //2.Написать программу с названием “CheckOddEven”, которая печатает “Odd Number”
 // если переменная “number” типа int нечетная.
@@ -6,7 +6,7 @@ package HW2;
 
 import java.util.Scanner;
 
-public class Task2 {
+public class Task2_refac_HW2 {
     public static void main(String[] args) {
         System.out.println(evenOrOddNumber());
 

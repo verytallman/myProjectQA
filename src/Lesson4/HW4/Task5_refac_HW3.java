@@ -1,12 +1,13 @@
-package Lesson3.HW3;
+package Lesson4.HW4;
 
 //Write a program that outputs a reversible string (use an array of characters - char string [])
 
 
 import java.util.Scanner;
 
-public class Task5 {
+public class Task5_refac_HW3 {
     public static void main(String[] args) {
+
         String reversibleString = reversibleStringMaker();
     }
 

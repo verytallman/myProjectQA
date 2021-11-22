@@ -1,11 +1,11 @@
-package HW2;
+package Lesson4.HW4;
 
 //4.Написать программу, которая сравнивает два числа типа int и определяет, какое из чисел большее, а какое меньшее.
 // Программа должна вывести что-то типа “The number x has the greatest value”. Где “x” одно из чисел
 
 import java.util.Scanner;
 
-public class Task4 {
+public class Task4_refac_HW2 {
     public static void main(String[] args) {
         System.out.println(intComparison());
 

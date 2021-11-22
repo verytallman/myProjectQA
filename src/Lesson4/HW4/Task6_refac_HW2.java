@@ -1,4 +1,4 @@
-package HW2;
+package Lesson4.HW4;
 //6.Написать программу которая будет сравнивать величину (magnitude) двух чисел.
 // Например, если одно число = 3, а второе число = -9,
 // программа должна выдать, что число -9 имеет большую величину.
@@ -6,7 +6,7 @@ package HW2;
 
 import java.util.Scanner;
 
-public class Task6 {
+public class Task6_refac_HW2 {
     public static void main(String[] args) {
         System.out.println(magnitudeChecker());
     }

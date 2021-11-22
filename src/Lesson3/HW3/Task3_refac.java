@@ -2,7 +2,7 @@ package Lesson3.HW3;
 
 //Write a program that finds the minimum value in an array
 
-public class Task3 {
+public class Task3_refac {
     public static void main(String[] args) {
         System.out.print("Minimum value in given array: "+minimumAndMaximumValueInArray());
     }

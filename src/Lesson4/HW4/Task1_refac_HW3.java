@@ -1,4 +1,4 @@
-package Lesson3.HW3;
+package Lesson4.HW4;
 
 //Program to print the duplicate elements of an array
 //In this program, we need to print the duplicate elements present in the array.
@@ -12,7 +12,7 @@ package Lesson3.HW3;
 //
 //        arr[]= {1, 2, 3, 4, 2, 7, 8, 8, 3}.
 
-public class Task1 {
+public class Task1_refac_HW3 {
     public static void main(String[] args) {
         duplicateInArrayFinder();
     }
