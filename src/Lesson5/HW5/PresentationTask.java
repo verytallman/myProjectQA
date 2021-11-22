@@ -6,6 +6,15 @@ package Lesson5.HW5;
 //generated string of given length according to
 //the specified mode. Modes: alpha, numeric, alphanumeric. Output —> String.
 
-public class PresentationTask {
+import java.util.Scanner;
 
+public class PresentationTask {
+    public static void main(String[] args) {
+    }
+
+    public static String randomStringGenerator (String str1, int length){
+        Scanner scanner = new Scanner(System.in);
+
+return "" ;
+    }
 }
