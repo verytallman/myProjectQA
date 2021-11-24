@@ -33,6 +33,8 @@ public class Lesson5Main {
         System.out.println(a2);
         System.out.println(a3);
 
+        String[] sb = a1.split(" w");
+        System.out.println();
 
         String s3 = "Hello %s !!!";
 
