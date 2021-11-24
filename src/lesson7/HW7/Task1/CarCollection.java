@@ -8,7 +8,7 @@ public class CarCollection {
         VolvoV70.carColor = "Blue";
         VolvoV70.carModel = "V70";
         VolvoV70.carName = "Volvo";
-        VolvoV70.typeOfBody = "Sedan";
+        VolvoV70.typeOfBody = "Hatchback";
         VolvoV70.manufactureYear = 2010;
         VolvoV70.fuelInTank = 35;
 
@@ -24,8 +24,8 @@ public class CarCollection {
 
         System.out.println(VolvoV70.printSedanCarInfo());
         System.out.println(VolvoXC90.printSedanCarInfo());
-        System.out.println(VolvoV70.carName.concat(" "+VolvoV70.carModel)+" is "+VolvoV70.fuelCounter(0)+" liters.");
-        System.out.println(VolvoV70.carName.concat(" "+VolvoXC90.carModel)+" is "+VolvoXC90.fuelCounter(6)+" liters.");
+        System.out.println(VolvoV70.fuelCounter(3)+" liters.");
+        System.out.println(VolvoXC90.fuelCounter(6)+" liters.");
 
     }
 

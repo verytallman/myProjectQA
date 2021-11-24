@@ -8,12 +8,12 @@ package Lesson5.HW5;
 
 import java.util.Scanner;
 
-public class Task1 {
+public class Task1_allUpperOrLowerCaseConverter {
     public static void main(String[] args) {
-        System.out.println(allUpperCaseConverter());
+        System.out.println(allUpperOrLowerCaseConverter());
     }
 
-    public static String allUpperCaseConverter() {
+    public static String allUpperOrLowerCaseConverter() {
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
         int i;
