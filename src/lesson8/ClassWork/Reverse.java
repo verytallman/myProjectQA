@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 public class Reverse {
     public static void main(String[] args) {
+
+        }
+    public void reverseStr () {
         Scanner scanner = new Scanner(System.in);
         String inputStr = scanner.nextLine();
         char[] arr = inputStr.toCharArray();
