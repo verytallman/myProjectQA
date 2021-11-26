@@ -3,6 +3,7 @@ package lesson7.HW7.Task1;
 public class CarCollection {
     public static void main(String[] args) {
         Car VolvoV70 = new Car();
+
         VolvoV70.id = 1;
         VolvoV70.engine = 2.0;
         VolvoV70.carColor = "Blue";
@@ -13,6 +14,7 @@ public class CarCollection {
         VolvoV70.fuelInTank = 35;
 
         Car VolvoXC90 = new Car();
+
         VolvoXC90.typeOfBody = "SUV";
         VolvoXC90.carName = "Volvo";
         VolvoXC90.id = 2;
@@ -24,6 +26,7 @@ public class CarCollection {
 
         System.out.println(VolvoV70.printSedanCarInfo());
         System.out.println(VolvoXC90.printSedanCarInfo());
+
         System.out.println(VolvoV70.fuelCounter(3)+" liters.");
         System.out.println(VolvoXC90.fuelCounter(6)+" liters.");
 
