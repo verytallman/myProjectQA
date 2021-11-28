@@ -4,9 +4,13 @@ import java.util.Scanner;
 
 public class Replace {
     public static void main(String[] args) {
-
         }
+
     public void symbolReplacement (){
+        System.out.println("This is Replace program");
+        System.out.println("All chars"+" a "+"will be transformed into "+"@.");
+        System.out.println("All chars"+" o "+"will be transformed into "+"0.");
+        System.out.println("Please, enter a string for Replace process.");
         Scanner scanner = new Scanner(System.in);
         String inputString = scanner.nextLine();
         String outputString1 = inputString.replaceAll("a", "@");
@@ -16,6 +20,7 @@ public class Replace {
         }else{
             System.out.println(outputString2);
     }
+        System.out.println("bye");
 }
 }
 

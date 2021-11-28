@@ -8,6 +8,7 @@ public class Armstrong {
     }
 
     public void armstrongChecker() {
+        System.out.println("This is Armstrong program");
         System.out.print("Please enter a number:" + " ");
         Scanner scan = new Scanner(System.in);
         long number = scan.nextLong();
@@ -21,5 +22,6 @@ public class Armstrong {
         } else {
             System.out.print(number + " is not an armstrong number");
         }
+        System.out.println("bye");
     }
 }
