@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Task2_frequencyCounter {
     public static void main(String[] args) {
-        System.out.println(frequencyCounter("qqww"));
+        System.out.println(frequencyCounter("qwertyqwerty and some text"));
     }
 
     public static String frequencyCounter(String string) {

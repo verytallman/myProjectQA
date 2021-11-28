@@ -6,7 +6,7 @@ package Lesson5.HW5;
 
 public class Task5_letter_removal {
     public static void main(String[] args) {
-        removeChar("I will delete char W from this text", 'w');
+        removeChar("I will delete char W from this text.", 'w');
     }
 
         static void removeChar (String s, char c){
