@@ -1,9 +1,7 @@
 package lesson8.ClassWork;
 
 public class Fibonacci {
-    public static void main(String[] args) {
 
-    }
     public void fibonacciChecker () {
         System.out.println("Fibonacci");
         System.out.println("This program shows first 50 values for Fibonacci numbers");

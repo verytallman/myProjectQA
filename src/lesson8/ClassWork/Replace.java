@@ -3,9 +3,6 @@ package lesson8.ClassWork;
 import java.util.Scanner;
 
 public class Replace {
-    public static void main(String[] args) {
-        }
-
     public void symbolReplacement (){
         System.out.println("This is Replace program");
         System.out.println("All chars"+" a "+"will be transformed into "+"@.");

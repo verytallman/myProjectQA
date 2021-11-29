@@ -3,9 +3,6 @@ package lesson8.ClassWork;
 import java.util.Scanner;
 
 public class Reverse {
-    public static void main(String[] args) {
-
-        }
     public void reverseStr () {
         System.out.println("This is Reverse program");
         System.out.println("Please, enter a String to Reverse");

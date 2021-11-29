@@ -3,9 +3,6 @@ package lesson8.ClassWork;
 import java.util.Scanner;
 
 public class EvenNumber {
-    public static void main(String[] args) {
-
-    }
 
     public void evenOrOddNumber() {
         System.out.println("This is Even Number program!");

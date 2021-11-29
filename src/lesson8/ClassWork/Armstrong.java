@@ -3,9 +3,6 @@ package lesson8.ClassWork;
 import java.util.Scanner;
 
 public class Armstrong {
-    public static void main(String[] args) {
-
-    }
 
     public void armstrongChecker() {
         System.out.println("This is Armstrong program");
