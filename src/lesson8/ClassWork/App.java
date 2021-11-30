@@ -1,6 +1,6 @@
 package lesson8.ClassWork;
 
-// login -
+// login - Admin
 // Pass - Administrator123
 
 public class App {
