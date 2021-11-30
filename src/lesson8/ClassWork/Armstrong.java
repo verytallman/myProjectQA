@@ -3,7 +3,6 @@ package lesson8.ClassWork;
 import java.util.Scanner;
 
 public class Armstrong {
-
     public void armstrongChecker() {
         System.out.println("This is Armstrong program");
         System.out.print("Please enter a number:" + " ");

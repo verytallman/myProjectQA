@@ -4,7 +4,6 @@ import java.util.Objects;
 import java.util.Scanner;
 
 public class loginAndPass {
-
     public static void loginAndPassChecker (){
         System.out.println("Please, enter your login");
         Scanner scanner = new Scanner(System.in);
@@ -50,4 +49,5 @@ public class loginAndPass {
         }
 
     }
+
 }

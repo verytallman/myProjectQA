@@ -16,8 +16,7 @@ public class Replace {
             System.out.println("Max symbol length is 30");
         }else{
             System.out.println(outputString2);
-    }
+        }
         System.out.println("bye");
+    }
 }
-}
-

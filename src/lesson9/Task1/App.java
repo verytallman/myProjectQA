@@ -1,6 +1,5 @@
 package lesson9.Task1;
 
-import lesson7.employee.SomeEmployee;
 
 public class App {
 
