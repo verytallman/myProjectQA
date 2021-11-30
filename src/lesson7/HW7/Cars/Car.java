@@ -69,7 +69,7 @@ public class Car {
         return fuelInTank;
     }
 
-    void fuelCounter(double fuelToAdd, String typeOfGas) {
+    public void fuelCounter(double fuelToAdd, String typeOfGas) {
         fuelInTank = fuelInTank + fuelToAdd;
         System.out.println("");
         System.out.print("Current fuel level on " + carName + " " + carModel + " is about " + fuelInTank + " liters "

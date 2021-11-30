@@ -37,7 +37,7 @@ public class Fruits {
         System.out.println("");
     }
 
-     void howToMakeFruitSalad(String seasoning, String chocolate){
+     public void howToMakeFruitSalad(String seasoning, String chocolate){
          System.out.println("First, you will need some fruits");
          System.out.println("We will take "+tasteOfFruit+" "+nameOfFruit);
          System.out.println("One fruit should be about "+weightOfFruit+" grams.");
