@@ -1,4 +1,4 @@
-package HW7.Fruits;
+package HW7.Cooking;
 
 public class Fruits {
 
