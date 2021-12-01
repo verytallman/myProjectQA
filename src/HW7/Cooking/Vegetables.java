@@ -1,6 +1,6 @@
 package HW7.Cooking;
 
-public class Vegetables {
+public class Vegetables  {
 
     private String nameOfVegetables;
     private String tasteOfVegetable;

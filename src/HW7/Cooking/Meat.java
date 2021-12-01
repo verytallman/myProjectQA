@@ -1,6 +1,6 @@
 package HW7.Cooking;
 
-public class Meat {
+public class Meat  {
     private int weight;
     private String typeOfMeat;
 
